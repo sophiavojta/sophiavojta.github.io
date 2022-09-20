@@ -38,39 +38,69 @@
             background-color: transparent;
 
         }
+
+        .outer {
+            display: table;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .middle {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .inner {
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            /* Whatever width you want */
+        }
     </style>
 </head>
 
 <body>
-    <div class="center">
-        <section class="padded-content">
-            <p>
+    <div class="outer">
+        <div class="middle">
+            <div class="inner">
+                <div class="center">
+                    <section class="padded-content">
+                        <p>
 
-            </p>
-            <p>
-                My name is Sophia Vojta. I currently work as a Software Engineer on the data engineering team at <a
-                    href=https://www.huntclub.com><b>Hunt Club.</b></a>
-            </p>
-            <p></p>
-            I completed a Masters in Computer Science (in 2022) and a Bachelors in Physics (in 2018), both from the
-            University of Chicago. In between, I also spent nearly four years working in
-            higher education administration at UChicago, where I led career services for undergraduate STEM
-            students.
+                        </p>
+                        <p>
+                            My name is Sophia Vojta. I currently work as a Software Engineer on the data engineering
+                            team at <a href=https://www.huntclub.com><b>Hunt Club.</b></a>
+                        </p>
+                        <p></p>
+                        I completed a Masters in Computer Science (in 2022) and a Bachelors in Physics (in 2018), both
+                        from the
+                        University of Chicago. In between, I also spent nearly four years working in
+                        higher education administration at UChicago, where I led career services for undergraduate STEM
+                        students.
 
-            </p>
+                        </p>
 
-            <ul style="list-style: none;">
-                <li>You can e-mail me <a href=mailto:sophiacvojta@gmail.com><b>here</b></a>.</li>
-                <li>You can visit my LinkedIn <a href=https://www.linkedin.com/in/sophiavojta><b>here</b></a>.</li>
-                <li> You can see my technical projects on GitHub <a href=https://github.com/sophiavojta><b>here</b></a>.
-                </li>
-            </ul>
-            <p>
+                        <ul style="list-style: none;">
+                            <li>You can e-mail me <a href=mailto:sophiacvojta@gmail.com><b>here</b></a>.</li>
+                            <li>You can visit my LinkedIn <a
+                                    href=https://www.linkedin.com/in/sophiavojta><b>here</b></a>.</li>
+                            <li> You can see my technical projects on GitHub <a
+                                    href=https://github.com/sophiavojta><b>here</b></a>.
+                            </li>
+                        </ul>
+                        <p>
 
 
 
-            </p>
-        </section>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
